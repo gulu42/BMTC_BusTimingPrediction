@@ -1,0 +1,12 @@
+pickle file:
+its a way to stream objects in python
+
+its a python specific tool to convert objects into a datastream and vice versa
+this way, objects can be stored as code and retrieved later
+
+these are python specific
+they are designed for python so any restrictions that come up with json are not there
+
+to use these files, first make a pickler or a depickler object
+then you either dump(pickler) the data into the stream
+or you load(depickler) the data from the stream 
